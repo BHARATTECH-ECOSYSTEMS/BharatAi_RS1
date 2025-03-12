@@ -16,7 +16,7 @@ pip install torch transformers datasets sentencepiece evaluate accelerate zstand
 - **model.py** - Contains the BharatAI transformer architecture.
 - **train.py** - Script for training the model.
 - **inference.py** - Script for generating text using the trained model.
-- **model.pkl** - Pre-generated model file.
+- **model.bin** - Pre-generated model file.
 - **tokenizer.model** - Pre-generated tokenizer file.
 
 ## Tokenizer
