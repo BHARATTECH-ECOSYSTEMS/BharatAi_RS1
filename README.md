@@ -55,6 +55,7 @@ Users must train the model before using it for text generation. To train the mod
 python train.py
 ```
 This script loads the dataset, tokenizes text, and trains the transformer model from scratch.
+
 ### Merging the Split Model Files
 Since GitHub has a file size limit, the model file (model.bin) has been split into smaller parts. Before using the model, merge them back into a single file:
 
